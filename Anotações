@@ -31,3 +31,7 @@ WebApplication
     Acessibilidade
 
 
+git status
+git add .
+git commit -m "Minha mensagem do commit"
+git push origin main
