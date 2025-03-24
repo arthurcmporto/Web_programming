@@ -3,7 +3,7 @@
 
     Hypertext Markup Language( HTML )
 
-    - Abertura de teg
+    - Abertura de tag
     - Fechamento de tag 
     - Conteúdo
     - Elementos
@@ -38,4 +38,92 @@
      - duplas
 -->
 
-<a href="https://www.youtube.com/">link</a>
+<a href="https://github.com/arthurcmporto">link</a>
+
+<!--    
+    Atributos globais mais usados:
+        - CLass(Estilo CSS e acessar com JS)
+        - contenteditable(Booleano para editar elemento)
+        - data-* (Expandir atributos e fazer lógica com JS)
+        - hidden(Esconder uma tag)
+        - id(Indice de algo, não repetir)
+        - style(Estilização)
+        - tabindex(Indica onde o cursor, na página web, ao apertar tab)
+        - title(Define um titulo ao passar o mouse no elemento)
+-->
+
+<div   Class="Carro" contenteditable="true" id="1" style="color: blue;" tabindex="1" title="aloalo">
+
+    conteudo
+    <!-- Elementos aqui dentro -->
+    
+</div>
+
+<div   Class="Professor" tabindex="2">
+    teste(SUMIU!!!)
+<!-- Elementos aqui dentro -->
+  
+</div>
+
+
+<div   Class="Professor" hidden tabindex="3">
+        teste(SUMIU!!!)
+    <!-- Elementos aqui dentro -->
+      
+</div>
+
+
+<!--
+    Alinhamento de tag(tag dentro da outra)
+
+        -Hierarquia(Tag pai -> tag filha)
+        -Fluxo
+        - Posicionamento
+-->
+<div>
+    <p>
+        <em>Escrever </em> parágrafo
+        <p>Pulou a linha </p>
+    </p>
+</div>
+
+
+<!--
+    Exercício:
+        - Escrever 2 parágrafos, dando ênfase e importância para algumas palavras,
+          e adicione um link de saiba mais.
+
+          Use:
+            - tag de enfase
+            - tag strong para importancia
+            - o link pode levar para o google
+
+-->
+
+<p>Lorem ipsum dolor <em>sit amet consectetur</em> adipisicing elit. Magnam sequi id qui aliquam doloribus eum harum labore voluptatibus ducimus aperiam? Dolor quia dolores totam accusantium illo possimus voluptatibus quasi numquam!<p>
+
+</p>Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Quos eveniet dolor excepturi eum nisi, dolorum explicabo, enim esse nihil harum aliquam veniam assumenda quo sit, tenetur qui provident officia temporibus.</p>
+
+<a href="https://www.google.com/">Saiba mais</a>
+
+<!--
+    Caracteres reservados
+    &lt; -> lower than
+    &gt; -> greater than
+
+-->
+
+<p>
+
+    &lt;
+    &gt;
+
+    &amp;
+<br>
+
+    &quot; aaaaaaa &quot;
+
+    <br>
+
+    &apos; bbbbbb &apos;
+</p>
