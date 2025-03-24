@@ -1,0 +1,33 @@
+WebPages: 
+    Paginas WebPages acessados pelo navegador. Acessados pela URL ou IP.
+    Respostas dadas pelo servidor:
+        HTML - Hyper Text Markup Language  
+        CSS - Cascading Style Sheet
+        JavaScript - parte lógica, funções.
+
+WebSites
+    Agrupamento estruturado de várias WebPages.
+    Pode ser: Estático ou Dinâmico.
+
+    Estática: A página é sempre a mesma. Alteração direta no código e por quem criou.
+    # Não interage com banco de dados. 
+
+    Dinâmica: Interage com dados do banco de dados.
+        Dados + modelo da página = página dinâmica.
+    Modificação sem precisar mexer no código.
+
+WebApplication
+
+    Programa, software que vai viver no servidor.
+        Linguagens de programação
+        Banco de Dados.
+
+    Utilizados através de páginas WEB e pelo navegador.
+    Mais complexo.
+    Ex: Facebook, Gmail, Youtube....
+
+    Desafios: Adaptação nos diversos dispositivos(Responsividade)
+    Performace
+    Acessibilidade
+
+
